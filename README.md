@@ -3,7 +3,7 @@
 
 # Semi-Steady-State Jaya Optimization Algorithm
 
-This repository contains the implementation and analysis of the semi-steady-state Jaya optimization algorithm, with a theoretical and empirical comparison of worst-index updates.
+This repository contains the implementation and analysis of the [Semi-Steady-State Jaya Optimization Algorithm](https://irl.umsl.edu/cmpsci-faculty/42/), with a theoretical and empirical comparison of worst-index updates.
 
 ## Overview
 
@@ -17,8 +17,8 @@ The Jaya algorithm is a simple and effective optimization algorithm that does no
 - **Population Size Analysis**: Evaluates the algorithm's performance across different population sizes.
 - **Data Presentation**: Uses pandas to display results in a clear, tabular format.
 
+Whole code can be run here: 
 ## Code Explanation
-
 ### Functions
 
 1. **expected_updates(n)**
