@@ -17,7 +17,19 @@ The Jaya algorithm is a simple and effective optimization algorithm that does no
 - **Population Size Analysis**: Evaluates the algorithm's performance across different population sizes.
 - **Data Presentation**: Uses pandas to display results in a clear, tabular format.
 
-## Code Explanation 
+## Assumptions/Approximations
+
+- **Population Size Independence**: It is assumed that the expected number of worst-index updates per generation is independent of the population size.
+- **Stochastic Modeling**: The algorithm's behavior is modeled as a stochastic process, taking into account the random nature of the individuals' replacement and the update of their index within the population.
+- **Function expected_updates**: Calculates the expected number of worst-index updates based on a provided equation on the paper. I have used "gammaln" for efficient factorial computation. In this code, "gammaln" from "scipy.special" is used to help the algorithm implement faster.
+  - I first applied factorial on the equation, which took a long time for the entire program to implement (I waited around 55 minutes and it was still working). So I switched to a more efficient way and used "gammaln".
+- This pattern suggests that in larger populations, the likelihood of repeatedly updating the same worst index diminishes, which is a reflection of the algorithm's efficiency and effectiveness in dealing with larger groups.
+- According to the output, it suggests that the algorithm becomes more effective in avoiding repetitive updates of the worst index in larger groups, highlighting its scalability and efficiency in handling diverse population sizes. The results demonstrate a characteristic of the Semi-Steady-State Jaya algorithm in balancing exploration and exploitation as the population size varies.
+
+## Code Explanation
+
+
+## Code Explanation: 
 ### Functions
 
 1. **expected_updates(n)**
