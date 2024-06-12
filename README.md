@@ -17,7 +17,6 @@ The Jaya algorithm is a simple and effective optimization algorithm that does no
 - **Population Size Analysis**: Evaluates the algorithm's performance across different population sizes.
 - **Data Presentation**: Uses pandas to display results in a clear, tabular format.
 
-Code can be run here: [Jaya_Algorithm.py](Jaya_Algorithm.py)
 ## Code Explanation 
 ### Functions
 
@@ -62,6 +61,4 @@ Code can be run here: [Jaya_Algorithm.py](Jaya_Algorithm.py)
 ## Usage
 
 To run the algorithm and view the results, execute the script:
-
-```bash
-python jaya_algorithm.py
+[Jaya_Algorithm.py](Jaya_Algorithm.py)
