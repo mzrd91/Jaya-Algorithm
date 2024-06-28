@@ -26,9 +26,6 @@ The Jaya algorithm is a simple and effective optimization algorithm that does no
 - This pattern suggests that in larger populations, the likelihood of repeatedly updating the same worst index diminishes, which is a reflection of the algorithm's efficiency and effectiveness in dealing with larger groups.
 - According to the output, it suggests that the algorithm becomes more effective in avoiding repetitive updates of the worst index in larger groups, highlighting its scalability and efficiency in handling diverse population sizes. The results demonstrate a characteristic of the Semi-Steady-State Jaya algorithm in balancing exploration and exploitation as the population size varies.
 
-## Code Explanation
-
-
 ## Code Explanation: 
 ### Functions
 
