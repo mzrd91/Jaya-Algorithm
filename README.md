@@ -1,8 +1,6 @@
 # Jaya Algorithm 
 ## Implementing and analyzing the semi-steady-state Jaya optimization algorithm with theoretical and empirical comparison of worst-index updates
 
-## Semi-Steady-State Jaya Optimization Algorithm
-
 This repository contains the implementation and analysis of the [Semi-Steady-State Jaya Optimization Algorithm](https://irl.umsl.edu/cmpsci-faculty/42/), with a theoretical and empirical comparison of worst-index updates.
 
 ## Overview
